@@ -119,7 +119,7 @@ The ESF is grounded in two concrete artifacts:
 
 **[tachyonic-sh/taxonomy](https://github.com/tachyonic-sh/taxonomy)** — An open taxonomy of 168 AI/LLM attack vectors mapped to OWASP LLM Top 10 and MITRE ATLAS. Implements ESF Phases 1-3 (taxonomy, ontology, heuristics). Apache 2.0.
 
-**The Tachyonic Security Pipeline** — An agentic 11-stage security research pipeline that implements Phases 3-10 operationally. The pipeline accepts targets, runs methodology, self-improves with each campaign, and demonstrates the full ESF cycle in production. See the [pipeline mapping](/examples/tachyonic-pipeline-mapping.md) for details.
+**The Tachyonic Security Pipeline** — An 11-stage pipeline used as a worked example for mapping implementation stages to ESF phases. The [pipeline mapping](/examples/tachyonic-pipeline-mapping.md) records a self-assessed maturity snapshot and explicitly identifies Phase 9 formal verification as a gap; it is not evidence that every ESF phase is complete in production.
 
 ## Maturity Assessment
 
@@ -163,7 +163,7 @@ High-value contributions:
 
 ## Professional Assessment
 
-Want your AI system assessed against the full ESF? [Tachyonic](https://tachyonicai.com) runs 48-hour security assessments that test against all 168 attack vectors with full reporting, resistance scoring, and ESF maturity assessment.
+Want to use ESF to guide an AI security assessment? [Tachyonic](https://tachyonicai.com) offers 48-hour assessments with a target-specific test plan and reporting. The 168-vector taxonomy is an inventory, not a promise that every technique is executable or tested in a single engagement; resistance scoring and ESF maturity review depend on the agreed scope and available evidence.
 
 [Book a scoping call →](https://cal.com/tachyonicai/ai-security-scoping)
 
