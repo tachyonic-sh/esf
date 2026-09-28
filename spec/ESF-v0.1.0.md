@@ -1447,7 +1447,7 @@ Complete alphabetical glossary of all technical terms used in the framework.
 
 ### 9.1 Overview
 
-The ESF is grounded in the work of [Tachyonic](https://tachyonicai.com), which provides two concrete artifacts that serve as the reference implementation:
+The ESF is grounded in the work of [Tachyonic](https://tachyonic.co), which provides two concrete artifacts that serve as the reference implementation:
 
 1. **[tachyonic-sh/taxonomy](https://github.com/tachyonic-sh/taxonomy)** — An open-source taxonomy of AI/LLM attack vectors, mapped to the OWASP LLM Top 10 and MITRE ATLAS. This implements Phases 1-3 of the ESF (taxonomy, partial ontology, remediation heuristics). Apache 2.0 licensed.
 

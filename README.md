@@ -161,11 +161,11 @@ High-value contributions:
 - **Assessment feedback** — apply the rubric to a real system and share what worked or didn't
 - **Phase refinements** — improve definitions, decision criteria, or anti-patterns based on practitioner experience
 
-## Professional Assessment
+## Testing With Tachyonic
 
-Want to use ESF to guide an AI security assessment? [Tachyonic](https://tachyonicai.com) offers 48-hour assessments with a target-specific test plan and reporting. The 168-vector taxonomy is an inventory, not a promise that every technique is executable or tested in a single engagement; resistance scoring and ESF maturity review depend on the agreed scope and available evidence.
+[Tachyonic](https://tachyonic.co) runs security runtimes for AI agents and MCP systems. Start free on the [platform](https://platform.tachyonic.co) or follow the [quickstart](https://docs.tachyonic.co/docs/quickstart); Enterprise plans add hands-on assessment cycles and remediation review. The 168-vector taxonomy is an inventory, not a promise that every technique is executable or tested in a single engagement; what a run covers depends on the target and the agreed scope.
 
-[Book a scoping call →](https://cal.com/tachyonicai/ai-security-scoping)
+[Book a 15-minute call →](https://cal.com/tachyonic/security-scoping)
 
 ## License
 
