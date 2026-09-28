@@ -83,4 +83,4 @@ We follow the [Contributor Covenant](https://www.contributor-covenant.org/versio
 
 ## Questions?
 
-Open an issue or reach out at security@tachyonicai.com.
+Open an issue or reach out at security@tachyonic.co.
