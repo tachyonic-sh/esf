@@ -23,7 +23,7 @@ Map the ESF to additional industry standards or frameworks. Current mappings:
 | `owasp-llm-top10.yaml` | OWASP GenAI LLM Top 10 | 2026 v1.0 |
 | `owasp-agentic-top10.yaml` | OWASP Top 10 for Agentic Applications (ASI) | 2026 |
 | `mitre-atlas.yaml` | MITRE ATLAS (tactic level) | 2026.07 |
-| `aarm.yaml` | CSA AARM | R1-R9 |
+| `aarm.yaml` | CSA AARM | v1.0 / `aarm-dev/aarm@aaff5c0` |
 
 We welcome mappings to:
 
@@ -83,4 +83,4 @@ We follow the [Contributor Covenant](https://www.contributor-covenant.org/versio
 
 ## Questions?
 
-Open an issue or reach out at security@tachyonicai.com.
+Open an issue or reach out at security@tachyonic.co.

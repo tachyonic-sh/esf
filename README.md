@@ -43,7 +43,7 @@ The ESF is **complementary**, not competitive. The frameworks below describe *wh
 - **OWASP GenAI LLM Top 10 (2026)** tells you *what* the risks are when the model is a component
 - **OWASP Top 10 for Agentic Applications (2026)** tells you *what changes* when the model becomes an actor
 - **MITRE ATLAS** tells you *how adversaries* operate against AI systems
-- **CSA AARM** tells you *what capabilities* an agentic runtime must provide
+- **CSA AARM v1.0** tells you *what capabilities* an agentic runtime must provide
 - **ESF** tells you *how to progressively harden* — from first detection to formal proof
 
 The ESF [maps to all four](/mappings/), version-pinned, so you can assess your maturity against risks and requirements you already track.
@@ -96,7 +96,7 @@ esf/
 │   ├── owasp-llm-top10.yaml          # ESF ↔ OWASP GenAI LLM Top 10 (2026)
 │   ├── owasp-agentic-top10.yaml       # ESF ↔ OWASP Agentic Top 10 (2026)
 │   ├── mitre-atlas.yaml               # ESF ↔ MITRE ATLAS (2026.07)
-│   ├── aarm.yaml                      # ESF ↔ CSA AARM (R1-R9)
+│   ├── aarm.yaml                      # ESF ↔ CSA AARM v1.0 (R1-R9)
 │   └── pipeline-mapping-template.yaml # Map YOUR system to ESF
 └── examples/
     ├── tachyonic-pipeline-mapping.md  # Reference implementation
@@ -119,7 +119,7 @@ The ESF is grounded in two concrete artifacts:
 
 **[tachyonic-sh/taxonomy](https://github.com/tachyonic-sh/taxonomy)** — An open taxonomy of 168 AI/LLM attack vectors mapped to OWASP LLM Top 10 and MITRE ATLAS. Implements ESF Phases 1-3 (taxonomy, ontology, heuristics). Apache 2.0.
 
-**The Tachyonic Security Pipeline** — An agentic 11-stage security research pipeline that implements Phases 3-10 operationally. The pipeline accepts targets, runs methodology, self-improves with each campaign, and demonstrates the full ESF cycle in production. See the [pipeline mapping](/examples/tachyonic-pipeline-mapping.md) for details.
+**The Tachyonic Security Pipeline** — An 11-stage pipeline used as a worked example for mapping implementation stages to ESF phases. The [pipeline mapping](/examples/tachyonic-pipeline-mapping.md) records a self-assessed maturity snapshot and explicitly identifies Phase 9 formal verification as a gap; it is not evidence that every ESF phase is complete in production.
 
 ## Maturity Assessment
 
@@ -161,11 +161,11 @@ High-value contributions:
 - **Assessment feedback** — apply the rubric to a real system and share what worked or didn't
 - **Phase refinements** — improve definitions, decision criteria, or anti-patterns based on practitioner experience
 
-## Professional Assessment
+## Testing With Tachyonic
 
-Want your AI system assessed against the full ESF? [Tachyonic](https://tachyonicai.com) runs 48-hour security assessments that test against all 168 attack vectors with full reporting, resistance scoring, and ESF maturity assessment.
+[Tachyonic](https://tachyonic.co) runs security runtimes for AI agents and MCP systems. Start free on the [platform](https://platform.tachyonic.co) or follow the [quickstart](https://docs.tachyonic.co/docs/quickstart); Enterprise plans add hands-on assessment cycles and remediation review. The 168-vector taxonomy is an inventory, not a promise that every technique is executable or tested in a single engagement; what a run covers depends on the target and the agreed scope.
 
-[Book a scoping call →](https://cal.com/tachyonicai/ai-security-scoping)
+[Book a 15-minute call →](https://cal.com/tachyonic/security-scoping)
 
 ## License
 

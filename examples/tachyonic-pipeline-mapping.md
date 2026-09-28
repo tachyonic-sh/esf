@@ -1,6 +1,6 @@
 # Reference Implementation: Tachyonic Agentic Security Pipeline
 
-This document maps the Tachyonic 11-stage security pipeline to the ESF, demonstrating how a real system implements the framework.
+This worked example maps a described Tachyonic 11-stage security pipeline to the ESF. Its maturity scores are self-assessed, not an independently verified statement of current production capabilities or exhaustive attack-test coverage. In particular, Phase 9 formal verification is scored 0–1 below.
 
 ## System Overview
 
@@ -66,5 +66,5 @@ Score:   3-4  2    3    3    2-3  2    3    2    0-1  3
 ## Related Resources
 
 - Attack taxonomy: [tachyonic-sh/taxonomy](https://github.com/tachyonic-sh/taxonomy)
-- Blog post: [We Catalogued 122 Ways to Break AI Systems](https://tachyonicai.com/blog/122-attack-taxonomy/)
-- Assessment service: [Tachyonic](https://tachyonicai.com)
+- Blog post: [We Catalogued 122 Ways to Break AI Systems](https://tachyonic.co/blog/122-attack-taxonomy/)
+- Security runtimes: [Tachyonic](https://tachyonic.co)

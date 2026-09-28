@@ -16,6 +16,10 @@
 - **[PLACEHOLDER]** — Section is reserved for future expansion
 - **[EXAMPLE NEEDED]** — Concrete worked examples to be added
 
+Implementation descriptions and maturity scores in this draft are worked,
+self-assessed examples, not an independent audit of current production behavior,
+proof of every phase, or evidence that every cataloged attack is executed.
+
 ---
 
 ## 1. Executive Summary [STABLE]
@@ -1443,11 +1447,11 @@ Complete alphabetical glossary of all technical terms used in the framework.
 
 ### 9.1 Overview
 
-The ESF is grounded in the work of [Tachyonic](https://tachyonicai.com), which provides two concrete artifacts that serve as the reference implementation:
+The ESF is grounded in the work of [Tachyonic](https://tachyonic.co), which provides two concrete artifacts that serve as the reference implementation:
 
 1. **[tachyonic-sh/taxonomy](https://github.com/tachyonic-sh/taxonomy)** — An open-source taxonomy of AI/LLM attack vectors, mapped to the OWASP LLM Top 10 and MITRE ATLAS. This implements Phases 1-3 of the ESF (taxonomy, partial ontology, remediation heuristics). Apache 2.0 licensed.
 
-2. **The Tachyonic Agentic Security Pipeline** — An 11-stage pipeline (INIT → RECON → SCAN → HEUR_TRIAGE → ANALYST_TRIAGE → EVIDENCE → DOWNSTREAM_SPAWN → UPLOAD → NOTIFY → SELF_IMPROVE → DONE) that implements Phases 3-10 operationally. The pipeline accepts a target and hypothesis set, runs the full research methodology without human intervention, and self-improves with each campaign cycle.
+2. **The Tachyonic Agentic Security Pipeline** — An 11-stage pipeline (INIT → RECON → SCAN → HEUR_TRIAGE → ANALYST_TRIAGE → EVIDENCE → DOWNSTREAM_SPAWN → UPLOAD → NOTIFY → SELF_IMPROVE → DONE) used to illustrate how operational stages can be mapped to ESF phases. The self-assessment below identifies incomplete phases, including Phase 9 formal verification; the mapping is not a claim that Phases 3-10 are fully implemented in production.
 
 ### 9.2 Repository-to-Framework Mapping
 
